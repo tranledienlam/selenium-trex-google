@@ -112,7 +112,7 @@ python3 --version
 2. **Tạo môi trường ảo**
 
    ```sh
-   python -m venv venv-browserkit0.3.0
+   python -m venv venv-browserkit1.1.1
    ```
 
 3. **Kích hoạt môi trường ảo**
@@ -120,18 +120,18 @@ python3 --version
    * **Windows**
 
      ```sh
-     venv-browserkit0.3.0\Scripts\activate
+     venv-browserkit1.1.1\Scripts\activate
      ```
    * **Linux/macOS**
 
      ```sh
-     source venv-browserkit0.3.0/bin/activate
+     source venv-browserkit1.1.1/bin/activate
      ```
 
 4. **Cài đặt thư viện**
 
    ```sh
-   pip install selenium-browserkit==0.3.0
+   pip install selenium-browserkit==1.1.1
    ```
 
 5. **(Tuỳ chọn) Cài đặt từ source**
