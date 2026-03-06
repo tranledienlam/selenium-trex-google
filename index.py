@@ -59,7 +59,7 @@ class Auto:
                 self.node.go_to(f'{PROJECT_URL}/quest', method="get")
             else:
                 break
-        if self.node.find_and_click(By.XPATH, '//button[not(@disabled) and contains(text(),"Check in")]'):
+        if self.node.find_and_click(By.XPATH, '//span[contains(text(),"Check in")]'):
             return True
         else:
             return False
